@@ -32,4 +32,5 @@ Data Sets:
         expected output = 92.9%
 
 
-Trained the model to 6 epoths in data set No.1 and 2 epoths in data set NO.2
+Trained the model to 6 epoths in data set No.1 and 2 epoths in data set NO.2. And i have manually updated weights and Bisaes in each epoth....
+
