@@ -1,6 +1,6 @@
 I Have made an NN for only predecting the next test % by seeing Hours slept and stuided
 
-The Information for The NN(Netural Network) is GIven below:
+The Information for The NN(Netural Network) is Given below:
 
 Input layers (1):
      i1 = slept
@@ -18,9 +18,18 @@ The Formulation:
   a = (i1*w1a) + (i2*w3a) + ab(Neuron A's Bias)
   b = (i1*w2b) + (i2*w4b) + bb(Neuron B's Bias)
   z = Relu(f(z) = max(0,z))
+  loss = (p(predection) - required goal)
 
 Data Sets:
          No.1 
          i1 = 7
          i2 = 10
         expected output = 91.5%
+
+        No.2
+        i1 = 8
+        i2 = 11
+        expected output = 92.9%
+
+
+Trained the model to 6 epoths in data set No.1 and 2 epoths in data set NO.2
