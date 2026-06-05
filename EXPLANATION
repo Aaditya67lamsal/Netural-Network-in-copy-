@@ -1,0 +1,26 @@
+I Have made an NN for only predecting the next test % by seeing Hours slept and stuided
+
+The Information for The NN(Netural Network) is GIven below:
+
+Input layers (1):
+     i1 = slept
+     i2 = study 
+Hidden layers (1):
+     (Two neurons)
+     NEURON A and NEURON B
+Output layer(1):
+     One Neuron 
+
+Activation Function used = f(x) = max(0 , x)
+Activation Function used for Output layer = f(z) = max(0,z)
+
+The Formulation:
+  a = (i1*w1a) + (i2*w3a) + ab(Neuron A's Bias)
+  b = (i1*w2b) + (i2*w4b) + bb(Neuron B's Bias)
+  z = Relu(f(z) = max(0,z))
+
+Data Sets:
+         No.1 
+         i1 = 7
+         i2 = 10
+        expected output = 91.5%
